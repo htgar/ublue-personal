@@ -51,7 +51,7 @@ modules:
         - Roboto
         - Open Sans
 
-  # - type: yafti
+  - type: yafti
       # if included, yafti and it's dependencies (pip & libadwaita)
       #  will be installed and set up
     # custom-flatpaks:
