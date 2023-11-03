@@ -77,18 +77,25 @@ screens:
             - Flatseal (Permission Manager): com.github.tchx84.Flatseal
             - Font Downloader: org.gustavoperedo.FontDownloader
             - Mozilla Firefox: org.mozilla.firefox
+            - Secrets (Password Manager): org.gnome.World.Secrets
+            - Syncthingy: com.github.zocker_160.SyncThingy
+            - Warehouse (Flatpak Manager): io.github.flattool.Warehouse
+        Development:
+          description: Development tools
+          default: true
+          packages:
+            - Blackbox Terminal: com.raggesilver.BlackBox
         Web Browsers:
           description: Additional browsers to complement or replace Firefox.
           default: false
           packages:
             - Brave: com.brave.Browser
             - GNOME Web: org.gnome.Epiphany
-            - Librewolf: io.gitlab.librewolf
+            - Librewolf: io.gitlab.librewolf-community
         Office:
           description: Boost your productivity.
-          default: false
+          default: true
           packages:
-            - LibreOffice: org.libreoffice.LibreOffice
             - OnlyOffice: org.onlyoffice.desktopeditors
             - Obsidian: md.obsidian.Obsidian
 
