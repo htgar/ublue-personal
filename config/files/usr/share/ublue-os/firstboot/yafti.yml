@@ -80,6 +80,7 @@ screens:
             - Secrets (Password Manager): org.gnome.World.Secrets
             - Syncthingy: com.github.zocker_160.SyncThingy
             - Warehouse (Flatpak Manager): io.github.flattool.Warehouse
+            - Gear Lever (Appimage Manager): it.mijorus.gearlever
         Development:
           description: Development tools
           default: true
@@ -98,6 +99,8 @@ screens:
           packages:
             - OnlyOffice: org.onlyoffice.desktopeditors
             - Obsidian: md.obsidian.Obsidian
+            - RNote: com.github.flxzt.rnote
+            - PDF Arranger: com.github.jeromerobert.pdfarranger
 
   final-screen:
     source: yafti.screen.title
