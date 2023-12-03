@@ -26,7 +26,6 @@ modules:
       - https://pkgs.tailscale.com/stable/fedora/tailscale.repo
     install:
       - tailscale
-      - wl-clipboard
       - input-remapper
       
     remove:
