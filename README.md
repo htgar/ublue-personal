@@ -1,4 +1,5 @@
-# ublue-personal
+# ublue-personal 
+## I'm archiving this repo and switching to blue-build
 
 > **Warning**
 > Startingpoint was recently rewritten, and this version is considered a "1.0" *semi-*stable release.
